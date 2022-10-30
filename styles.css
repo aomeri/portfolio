@@ -69,7 +69,7 @@ span{
 }
 .project{
   width: 450px;
-  height: 460px;
+  height: 520px;
   box-shadow:0px  15px 15px 0px;
 }
 
@@ -77,12 +77,7 @@ span{
   box-shadow:0px 15px 15px 0px #2ecc71;
   
 }
-.link{
-  color: white;
-}
-.link:hover{
-  color: #2ecc71;
-}
+
 .img-container img{
   position: absolute;
   right: 30%;
@@ -252,3 +247,4 @@ span{
     width: 50px;
   }
   }
+
