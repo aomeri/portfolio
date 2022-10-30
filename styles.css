@@ -1,0 +1,254 @@
+body{
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+hr{
+  color: #2ecc71;
+  border-width:3px;
+}
+.navbar-brand{
+  cursor: default;
+}
+.navbar-nav a:hover{
+    color: #2ecc71;
+    transition: .4s;
+
+}
+.navbar-nav a {
+  font-size: 20px;
+}
+
+.container-1{
+  padding-top: 190px;
+}
+
+.btn-about{
+  background: transparent;
+  border: 2px solid #2ecc71;
+  color: white;
+}
+.btn-about:hover{
+  background-color:#2ecc71 ;
+  color:black;
+  transition: .4s;
+}
+.container-1 .anime-text h1{
+  font-size: 47px;
+  font-weight: 900px;
+  margin: 20px 0px 20px;
+}
+span{
+  color: #2ecc71;
+}
+.container-1 .anime-text h3{
+  font-weight: 400px;
+  font-size: 20px;
+}
+.first-page{
+  height: 100vh;
+}
+.rest .container h3{
+  margin: 80px 0px 50px;
+}
+.about-div{
+  width: 50%;
+  text-align: center;
+  font-family: "Courier New", monospace;
+}
+#about-title{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.projects{
+ display: flex;
+ justify-content: space-evenly;
+  
+}
+.project{
+  width: 450px;
+  height: 460px;
+  box-shadow:0px  15px 15px 0px;
+}
+
+.project:hover{
+  box-shadow:0px 15px 15px 0px #2ecc71;
+  
+}
+.link{
+  color: white;
+}
+.link:hover{
+  color: #2ecc71;
+}
+.img-container img{
+  position: absolute;
+  right: 30%;
+  
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.htmlLogo{
+  animation: slideleft 2.5s ease forwards infinite;
+  
+}
+
+@keyframes slideleft {
+  0%{
+    transform: translatex(0px);
+  }
+  25%{
+    
+  }
+  50%{
+    transform: translatex(-160px);
+  }
+  100%{
+    
+  }
+}
+.cssLogo{
+  animation: slideright 2.5s ease forwards infinite;
+}
+
+@keyframes slideright {
+  0%{
+    transform: translatex(0px);
+  }
+  50%{
+    transform: translatex(160px);
+  }
+  100%{
+
+  }
+}
+.javaLogo{
+  animation: slidetl 2.5s ease forwards infinite;
+}
+
+@keyframes slidetl {
+  0%{
+    transform: translate(0px, 0px);   
+  }
+  50%{   
+    transform: translate(-70px, -150px);
+  }
+  100%{
+
+  }
+}
+.reactLogo{
+  animation: slidetr 2.5s ease forwards infinite;
+}
+
+@keyframes slidetr {
+  0%{
+    transform: translate(0px, 0px);   
+  }
+  50%{   
+    transform: translate(70px, -150px);
+  }
+  100%{
+
+  }
+}
+.nodeLogo{
+  animation: slidebl 2.5s ease forwards infinite;
+}
+
+@keyframes slidebl {
+  0%{
+    transform: translate(0px, 0px);   
+  }
+  50%{   
+    transform: translate(-70px, 150px);
+  }
+  100%{
+
+  }
+}
+.sqlLogo{
+  animation: slidebr 2.5s ease forwards infinite;
+}
+
+@keyframes slidebr {
+  0%{
+    transform: translate(0px, 0px);   
+  }
+  50%{   
+    transform: translate(70px, 150px);
+  }
+  100%{
+
+  }
+}
+.bootLogo{
+  transform-origin: center;
+  animation: rotate 2.5s ease forwards infinite;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+  .projects{
+    display: block;
+  }
+  .project img{
+    height: 200px;
+    width: 280px;
+  }
+  .project{
+    width: 280px;
+  }
+  .first-page{
+    height: auto;
+  }
+  .about-div{
+    height: 100vh;
+  }
+  .htmlLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .cssLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .javaLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .reactLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .sqlLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .nodeLogo{
+    height: 50px;
+    width: 50px;
+  }
+  .bootLogo{
+    height: 50px;
+    width: 50px;
+  }
+  }
